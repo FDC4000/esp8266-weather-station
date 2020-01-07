@@ -55,11 +55,12 @@ String OPEN_WEATHER_MAP_LANGUAGE = "de";
 boolean IS_METRIC = true;
 
 /**
- * WiFi Settings
+ * WiFi Settings in config.h
+ * const char* WIFI_SSID     = "yourssid";   //config.h
+ * const char* WIFI_PASSWORD = "yourpassw0rd";   //config.h
  */
 const char* ESP_HOST_NAME = ESP_NAME; //+"-" + ESP.getFlashChipId();
-//const char* WIFI_SSID     = "yourssid";   //config.h
-//const char* WIFI_PASSWORD = "yourpassw0rd";   //config.h
+
 
 // initiate the WifiClient
 WiFiClient wifiClient;
