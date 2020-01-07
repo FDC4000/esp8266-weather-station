@@ -11,3 +11,6 @@ RemoteSystemsTempFiles
 .vscode
 .clang_complete
 .gcc-flags.json
+
+
+./generated/OpenWeatherMap_-_CurrentWeather/config.h
